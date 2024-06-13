@@ -42,15 +42,19 @@ void loop() {
     switch(key) {
       case '1':
         menuOption = 1;
+        displayMenu();
         break;
       case '2':
         menuOption = 2;
+        displayMenu();
         break;
       case '3':
         menuOption = 3;
+        displayMenu();
         break;
       case '9':
         menuOption = 0; // kembali ke main menu
+        displayMenu();
         break;
       default:
         break;
